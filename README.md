@@ -1,442 +1,242 @@
-# 🧠 NeuroTwin AI
+# NeuroTwin AI
 
-### Cognitive Digital Twin for Brain Health Intelligence
+## Cognitive Digital Twin for Brain Health Intelligence
 
+NeuroTwin AI is an AI-powered Cognitive Digital Twin that evaluates lifestyle, digital behavior, sleep quality, productivity, and daily habits to assess cognitive health.
+
+The system predicts multiple cognitive health indicators using Machine Learning and provides personalized recommendations to improve overall brain wellness.
 
 ---
 
-## 📌 Overview
+# Features
 
-NeuroTwin AI is an AI-powered Cognitive Digital Twin that evaluates how a person's lifestyle, digital behavior, sleep, productivity, and daily habits affect brain health.
-
-The system predicts multiple cognitive health indicators using Machine Learning and provides personalized recommendations to improve cognitive wellness.
-
-This project combines:
-
-- Machine Learning
-
-- Flask Backend
-
-- React Frontend
-
-- Cognitive Health Analytics
-
+- Brain Fog Prediction
+- Digital Addiction Assessment
+- Attention Fragmentation Prediction
+- Digital Overstimulation Analysis
+- Memory Retention Prediction
+- Cognitive Age Estimation
+- Personalized Lifestyle Recommendations
 - Lifestyle Simulation
 
-- Digital Twin Concept
-
 ---
 
-# 🎯 Features
-
-✅ Brain Fog Prediction
-
-✅ Digital Addiction Assessment
-
-✅ Attention Fragmentation Prediction
-
-✅ Digital Overstimulation Analysis
-
-✅ Memory Retention Prediction
-
-✅ Cognitive Age Estimation
-
-✅ Personalized Health Recommendations
-
-✅ Lifestyle Simulation
-
----
-
-# 🧠 AI Models
-
-The application predicts:
+# AI Models
 
 | Model | Description |
-
-|--------|-------------|
-
+| :--- | :--- |
 | Brain Fog | Predicts mental fatigue level |
-
 | Digital Addiction | Estimates dependency on digital devices |
-
 | Attention Fragmentation | Measures concentration disruption |
-
 | Digital Overstimulation | Evaluates excessive digital exposure |
-
 | Memory Retention | Predicts memory performance |
-
 | Cognitive Age | Estimates functional cognitive age |
 
 ---
 
-# 📊 Dataset
+# Dataset
 
-Dataset includes lifestyle and digital behavior attributes such as:
+The dataset contains lifestyle and digital behavior attributes including:
 
 - Age
-
 - Sleep Hours
-
 - Sleep Quality
-
 - Daily Screen Time
-
 - Phone Unlocks
-
 - Social Media Usage
-
 - Gaming Usage
-
 - Streaming Usage
-
 - Exercise Minutes
-
 - Study Hours
-
 - Productivity Score
-
 - Focus Index
-
 - Stress Level
-
 - Burnout Level
-
 - Heart Rate
-
 - Daily Steps
-
 - Water Intake
-
 - Nutrition Score
-
-- and several additional cognitive health indicators.
-
----
-
-# 🛠 Tech Stack
-
-### Frontend
-
-- React
-
-- Vite
-
-- HTML
-
-- CSS
-
-- JavaScript
-
-### Backend
-
-- Flask
-
-- Python
-
-### Machine Learning
-
-- Scikit-Learn
-
-- Random Forest Regression
-
-- Pandas
-
-- NumPy
-
-- Joblib
+- Additional cognitive health indicators
 
 ---
 
-# 📁 Project Structure
+# Technology Stack
 
-```
+| Category | Technologies |
+| :--- | :--- |
+| Frontend | React, Vite, HTML, CSS, JavaScript |
+| Backend | Flask, Python |
+| Machine Learning | Scikit-learn, Random Forest Regressor |
+| Data Processing | Pandas, NumPy |
+| Model Storage | Joblib |
 
-NeuroTwin-AI
+---
 
+# Project Structure
+
+```text
+NeuroTwin-AI/
 │
-
-├── backend
-
-│   ├── [app.py](http://app.py)
-
-│   ├── [predictor.py](http://predictor.py)
-
-│   ├── [preprocess.py](http://preprocess.py)
-
-│   ├── [recommendations.py](http://recommendations.py)
-
-│   ├── models_[loader.py](http://loader.py)
-
-│   └── ...
-
+├── backend/
+│   ├── app.py
+│   ├── predictor.py
+│   ├── preprocess.py
+│   ├── recommendations.py
+│   ├── models_loader.py
+│   ├── cognitive_age.py
+│   ├── confidence.py
+│   ├── overall_risk.py
+│   ├── risk_levels.py
+│   ├── sample_input.py
+│   └── simulator.py
 │
-
-├── frontend
-
+├── frontend/
 │
-
-├── data
-
+├── data/
 │   └── cognitive_digital_twin.csv
-
 │
-
-├── models
-
+├── models/
 │   ├── scaler.pkl
-
 │   └── scaler_columns.json
-
 │
-
-├── reports
-
+├── reports/
 │
-
-├── train_[models.py](http://models.py)
-
-├── train_[brainfog.py](http://brainfog.py)
-
+├── train_models.py
+├── train_brainfog.py
 ├── requirements.txt
-
-└── [README.md](http://README.md)
-
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-# ⚙ Installation
+# Installation
 
-## Clone Repository
+## Clone the repository
 
 ```bash
-
-git clone [https://github.com/DharanJr/NeuroTwin-AI.git](https://github.com/DharanJr/NeuroTwin-AI.git)
-
-```
-
-```
+git clone https://github.com/DharanJr/NeuroTwin-AI.git
 
 cd NeuroTwin-AI
-
 ```
 
----
+## Create a virtual environment
 
-## Create Virtual Environment
+```bash
+python -m venv venv
+```
 
 Windows
 
 ```bash
-
-python -m venv venv
-
-```
-
-Activate
-
-```bash
-
 venv\Scripts\activate
-
 ```
 
----
-
-## Install Dependencies
+## Install dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
----
-
-## Run Backend
+## Run the backend
 
 ```bash
-
 cd backend
 
-python [app.py](http://app.py)
-
+python app.py
 ```
 
-Backend runs on
+Backend:
 
+```text
+http://127.0.0.1:5000
 ```
 
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
-
-```
-
----
-
-## Run Frontend
+## Run the frontend
 
 ```bash
-
 cd frontend
 
 npm install
 
 npm run dev
-
 ```
 
-Frontend runs on
+Frontend:
 
-```
-
-[http://localhost:5173](http://localhost:5173)
-
+```text
+http://localhost:5173
 ```
 
 ---
 
-# 📈 Machine Learning Workflow
+# Machine Learning Workflow
 
-```
-
+```text
 Dataset
-
-      │
-
-      ▼
-
+    │
+    ▼
 Data Preprocessing
-
-      │
-
-      ▼
-
+    │
+    ▼
 Feature Engineering
-
-      │
-
-      ▼
-
-Random Forest Models
-
-      │
-
-      ▼
-
-Predictions
-
-      │
-
-      ▼
-
-Risk Analysis
-
-      │
-
-      ▼
-
-Recommendations
-
+    │
+    ▼
+Random Forest Regression
+    │
+    ▼
+Prediction
+    │
+    ▼
+Risk Assessment
+    │
+    ▼
+Personalized Recommendations
 ```
 
 ---
 
-# 📊 Output
+# Model Outputs
 
-The system predicts:
-
-- Brain Fog Score
-
-- Cognitive Age
-
-- Digital Addiction
-
-- Memory Retention
-
-- Attention Fragmentation
-
-- Digital Overstimulation
-
-along with personalized recommendations.
+| Prediction |
+| :--- |
+| Brain Fog Score |
+| Digital Addiction Score |
+| Attention Fragmentation Score |
+| Digital Overstimulation Score |
+| Memory Retention Score |
+| Cognitive Age |
 
 ---
 
-# 📷 Screenshots
-
-Add screenshots of your application here.
-
-Example:
-
-```
-
-screenshots/home.png
-
-screenshots/results.png
-
-screenshots/dashboard.png
-
-```
-
----
-
-# 🚀 Future Enhancements
+# Future Improvements
 
 - Deep Learning Models
-
 - Explainable AI (SHAP)
-
 - Mobile Application
-
 - Wearable Device Integration
-
-- Real-time Monitoring
-
-- Cloud Deployment
-
 - User Authentication
-
-- Dashboard Analytics
-
----
-
-# 📚 Learning Objectives
-
-This project demonstrates:
-
-- Machine Learning
-
-- Flask REST APIs
-
-- React Development
-
-- Model Deployment
-
-- Data Preprocessing
-
-- Feature Engineering
-
-- Cognitive Health Analytics
+- Cloud Deployment
+- Real-Time Monitoring
 
 ---
 
-# 👨‍💻 Author
+# Model Files
 
-**Dharan**
+The trained model files are not included in this repository because they exceed GitHub's file size limit.
 
-[B.Tech](http://B.Tech) Artificial Intelligence & Data Science
+Generate the trained models using:
 
-GitHub
-
-[https://github.com/DharanJr](https://github.com/DharanJr)
-
----
-
-# ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
+```bash
+python train_models.py
+```
 
 ---
 
-## 📜 License
+# Author
 
-This project is licensed under the MIT License.
+**Dharanidharan**
+
+Bachelor of Technology in Artificial Intelligence & Data Science
+
+GitHub: https://github.com/DharanJr

@@ -2,15 +2,6 @@
 
 ### Cognitive Digital Twin for Brain Health Intelligence
 
-![Python]([https://img.shields.io/badge/Python-3.10-blue](https://img.shields.io/badge/Python-3.10-blue))
-
-![Flask]([https://img.shields.io/badge/Flask-Backend-black](https://img.shields.io/badge/Flask-Backend-black))
-
-![React]([https://img.shields.io/badge/React-Frontend-61DAFB](https://img.shields.io/badge/React-Frontend-61DAFB))
-
-![Machine Learning]([https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green))
-
-![License]([https://img.shields.io/badge/License-MIT-yellow](https://img.shields.io/badge/License-MIT-yellow))
 
 ---
 

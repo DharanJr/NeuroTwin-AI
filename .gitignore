@@ -1,0 +1,65 @@
+# ===========================
+# Python
+# ===========================
+venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ===========================
+# Node
+# ===========================
+node_modules/
+
+# React Build
+frontend/dist/
+
+# ===========================
+# Models (Too Large for GitHub)
+# ===========================
+models/*.pkl
+
+# Keep these small files
+!models/scaler.pkl
+!models/scaler_columns.json
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Development / Testing Files
+# ===========================
+temp.py
+test_model.py
+test_predict.py
+test_all_models.py
+check_targets.py
+eda.py
+
+backend/check_feature_importance.py
+backend/check_memory_features.py
+backend/check_scaling.py
+backend/check_target_correlations.py
+backend/show_features.py
+backend/test_predictor.py
+backend/test_real_prediction.py
+
+# Ignore frontend template README
+frontend/README.md
